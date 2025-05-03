@@ -3,7 +3,7 @@ const icon = document.querySelector('i.navbar-toggler');
 /*Esto es perfecto para crear un botón de cambio o toggle entre dos estados. En este caso, parecerá que muestra u oculta contenido.
 La clase bx-x probablemente mostrará un ícono de cruz, y bx-menu mostrará un ícono de menú, representando esos dos estados.*/
 icon.addEventListener('click', function () {
-	this.classList.contains('collapse') ? this.classList.replace('bx-x', 'bx-menu') : this.classList.replace('bx-menu', 'bx-x');
+	this.classList.contains('bx-x') ? this.classList.replace('bx-x', 'bx-menu') : this.classList.replace('bx-menu', 'bx-x');
 });
 
 
